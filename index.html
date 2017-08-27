@@ -80,47 +80,10 @@ body {
   text-shadow:0px 1px 1px #000;
 }
           
-          @media only screen 
-and (orientation : landscape){ 
-.button
-{
-    position: relative;
-    width:4%;
-      height: 0;
-      padding:2% 0 2% 0;  
-  border-radius:50%;
-  motion-offset: 0;
-  background:yellow;
-  box-shadow:
-    0 -5px 30px #333 inset,
-    0 2px 5px #777;
-  display:inline-block;
-  margin:10px 10px;
-  transition:all 0.5s;
-  cursor:pointer;
-  text-align:center;    
-  font-size:2.4vmax;  
-  font-family:courier;
-  font-weight:bold;  
-  text-shadow:1px 1px 1px #ddd;
-  color:#555;  
-  right: 0;  
-}
-
-.button:hover
-{
-  box-shadow:
-    0 -5px 30px #555 inset,
-    0 0px 2px #777;
-  color:#fff;
-  text-shadow:0px 1px 1px #000;
-}          
-          
-          }
-          
-          
-          @media only screen 
-and (orientation : landscape){ 
+@media only screen 
+     and (min-device-width : 414px) 
+     and (max-device-width : 736px) 
+     and (orientation : landscape){ 
 .button
 {
     position: relative;
