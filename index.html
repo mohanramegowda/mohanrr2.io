@@ -160,6 +160,44 @@ body {
 }          
           
           }
+          
+          @media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) {
+          .button
+{
+    position: relative;
+    width:18%;
+      height: 0;
+      padding:7% 0 10% 0;  
+  border-radius:50%;
+  background:yellow;
+  box-shadow:
+    0 -5px 30px #333 inset,
+    0 2px 5px #777;
+  display:inline-block;
+  margin:10px 15px;
+  transition:all 0.5s;
+  cursor:pointer;
+  text-align:center;    
+  font-size:2.4vmax;  
+  font-family:courier;
+  font-weight:bold;  
+  text-shadow:1px 1px 1px #ddd;
+  color:#555;
+  
+}
+
+.button:hover
+{
+  box-shadow:
+    0 -5px 30px #555 inset,
+    0 0px 2px #777;
+  color:#fff;
+  text-shadow:0px 1px 1px #000;
+}
+          }
 
 
 @media only screen and (max-width:500px){
